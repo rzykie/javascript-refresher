@@ -1,6 +1,11 @@
-// console.log(10 + 5);
-// console.log("hello" + "world");
-// console.log(10 / 5);
+function createGreeting(userName, message = "Hello") {
+    // console.log(userName);
+    // console.log(message);
+    return "Hi, I am " + userName + "." + message;
+}
 
-// strict equality operator
-console.log(10 === 10);
+const greeting1 = createGreeting("Juan");
+console.log(greeting1);
+
+const greeting2 = createGreeting("Smith", "What's up");
+console.log(greeting2);
