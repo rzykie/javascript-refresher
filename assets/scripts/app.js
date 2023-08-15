@@ -1,3 +1,6 @@
-const userMessage = "Hello World";
+// console.log(10 + 5);
+// console.log("hello" + "world");
+// console.log(10 / 5);
 
-console.log(userMessage);
+// strict equality operator
+console.log(10 === 10);
