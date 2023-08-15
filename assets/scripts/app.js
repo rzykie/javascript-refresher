@@ -1,11 +1,16 @@
-function createGreeting(userName, message = "Hello") {
-    // console.log(userName);
-    // console.log(message);
-    return "Hi, I am " + userName + "." + message;
+/*
+Your task is to write a new function that should be named combine and have the following characteristics:
+
+Accept three input values
+
+Calculate a new value based on the three input values: a * b / c (if a, b & c are the input values)
+
+Return the calculated result
+*/
+
+function combine(a, b, c) {
+    return a * b / c;
 }
 
-const greeting1 = createGreeting("Juan");
-console.log(greeting1);
-
-const greeting2 = createGreeting("Smith", "What's up");
-console.log(greeting2);
+const result = combine(1, 5, 3);
+console.log(result);
