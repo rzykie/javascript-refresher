@@ -1,16 +1,12 @@
-/*
-Your task is to write a new function that should be named combine and have the following characteristics:
-
-Accept three input values
-
-Calculate a new value based on the three input values: a * b / c (if a, b & c are the input values)
-
-Return the calculated result
-*/
-
-function combine(a, b, c) {
-    return a * b / c;
+const user = {
+    "name": "Max",
+    "age": 14,
+    greet() {
+        console.log("Hello!");
+        console.log(this.name);
+    }
 }
 
-const result = combine(1, 5, 3);
-console.log(result);
+console.log(user.name);
+
+user.greet();
