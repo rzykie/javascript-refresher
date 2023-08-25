@@ -47,22 +47,40 @@
 
 // SPREAD OPERATOR
 
-const hobbies = ["Reading"];
-const newHobbies = ["Cooking"];
+// const hobbies = ["Reading"];
+// const newHobbies = ["Cooking"];
 
-const mergedHobbies = [...hobbies, ...newHobbies];
+// const mergedHobbies = [...hobbies, ...newHobbies];
 
-console.log(mergedHobbies);
+// console.log(mergedHobbies);
 
 
-const user = {
-    "name": "John",
-    "age": 33,
-}
+// const user = {
+//     "name": "John",
+//     "age": 33,
+// }
 
-const extendedUser = {
-    isAdmin: true,
-    ...user,
-}
+// const extendedUser = {
+//     isAdmin: true,
+//     ...user,
+// }
 
-console.log(extendedUser);
+// console.log(extendedUser);
+
+// Control Structures
+
+// const password = prompt("Type your password");
+
+// if (password === "1") {
+//     console.log(1);
+// } else if (password === "2") {
+//     console.log(2);
+// } else {
+//     console.log("Invalid access!");
+// }
+
+// const hobbies = ["sports", "cooking", "reading"];
+
+// for (const hobby of hobbies) {
+//     console.log(hobby);
+// }
