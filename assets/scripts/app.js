@@ -84,3 +84,26 @@
 // for (const hobby of hobbies) {
 //     console.log(hobby);
 // }
+
+// Using functions as values
+
+function handleTimeout() {
+    console.log("Time out");
+}
+
+const handleTimeout2 = () => {
+    console.log("Hello timeout");
+};
+
+setTimeout(handleTimeout, 1800);
+setTimeout(handleTimeout2, 3600);
+setTimeout(() => {
+    console.log("World timeout");
+}, 4500);
+
+function greet(greetFn) {
+    greetFn();
+}
+
+greet(() => console.log("hello world"));
+
