@@ -36,10 +36,33 @@
 // console.log(lastName);
 
 // pulled out by property name
-const { name: userName, age: userAge } = {
+// const { name: userName, age: userAge } = {
+//     "name": "John",
+//     "age": 33,
+// }
+
+// console.log(userName);
+// console.log(userAge);
+
+
+// SPREAD OPERATOR
+
+const hobbies = ["Reading"];
+const newHobbies = ["Cooking"];
+
+const mergedHobbies = [...hobbies, ...newHobbies];
+
+console.log(mergedHobbies);
+
+
+const user = {
     "name": "John",
     "age": 33,
 }
 
-console.log(userName);
-console.log(userAge);
+const extendedUser = {
+    isAdmin: true,
+    ...user,
+}
+
+console.log(extendedUser);
